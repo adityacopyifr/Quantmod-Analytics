@@ -1,0 +1,93 @@
+---
+title: "Quantmod III"
+author: "cms"
+date: "9/4/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(quantmod)
+library(tidyverse)
+```
+
+
+###  Pull down Stock Data for AMZN using Get Symbols
+
+```{r}
+
+```
+
+
+### Store Closing Price (adjusted for stock splits)
+
+```{r}
+
+```
+
+
+### What is Lag
+
+
+```{r}
+
+```
+
+
+### remove scientific notation
+
+
+```{r}
+
+```
+
+### Create daily % change vector
+
+```{r}
+
+```
+
+### Look at Histogram of Percentage Change
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+```
+
+### Loop over all trading days (except the first)
+
+
+```{r}
+
+```
+
+
+### Reclassify signal to an xts object (tying it to a date)
+
+
+```{r}
+
+```
+
+
+### Chart the Series
+
+
+```{r}
+
+```
+
+
+### Add signal line to see how the model performs
+
+
+```{r}
+
+```
+
